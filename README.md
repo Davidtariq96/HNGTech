@@ -1,0 +1,2 @@
+# HNGTech
+hng internship repo
