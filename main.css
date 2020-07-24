@@ -5,7 +5,7 @@ body{
     box-sizing: border-box;
 }
 
-.terms-wrapper{
+.float{
     margin: 0 1rem;
 }
 @font-face {
