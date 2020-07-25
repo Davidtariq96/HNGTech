@@ -5,9 +5,9 @@ body{
     box-sizing: border-box;
 }
 
-.float{
+/* .terms-wrapper{
     margin: 0 1rem;
-}
+} */
 @font-face {
     font-family: "Averta-Black";
     src: url("./fonts/Averta.woff") format("woff"),
@@ -28,7 +28,9 @@ body{
         url("./fonts/Averta-Bold.otf") format("opentype");
     font-weight: 600;
 }
-
+.float{
+    margin: 0 3rem;
+}
 .headings{
     text-align: center;
     background: #F2EBE9;
@@ -40,13 +42,14 @@ body{
 .headings h3{
     color: #E7332B;
     font-size: 14px;
+    font-weight: bold;
     font-family: Averta-Regular;
 }
 .headings h2{
     font-size: 32px;
     line-height: 48px;
     color: #514949;
-    font-family: Averta-bold;
+    font-family: Averta-Regular;
 }
 
 .sub-head{
@@ -57,15 +60,68 @@ body{
 span{
   color: #E7332B;
 }
-h4{
+
+.content h4{
+    color: #E7332B;
+    font-size: 14px;
+    margin-top: 3rem;
+    font-family: Averta-Regular; 
+    font-weight: bold;
+ }
+.cookies h4{
    color: #E7332B;
    font-size: 14px;
    margin-top: 3rem;
-   font-family: Averta-Regular; 
+   font-family: Averta-Regular;
+   font-weight: bold; 
 }
+
+.removal h4{
+    color: #E7332B;
+    font-size: 14px;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-family: Averta-Regular; 
+ }
+
+ .why-wrapper h4{
+    color: #E7332B;
+    font-size: 14px;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-family: Averta-Regular; 
+ }
+ .hyperlinks h4{
+    color: #E7332B;
+    font-size: 14px;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-family: Averta-Regular; 
+ }
+ .right h4{
+    color: #E7332B;
+    font-size: 14px;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-family: Averta-Regular; 
+ }
+ .removal h4{
+    color: #E7332B;
+    font-size: 14px;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-family: Averta-Regular; 
+ }
+ .disclaimer h4{
+    color: #E7332B;
+    font-size: 14px;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-family: Averta-Regular; 
+ }
 h5, h6, dt, dd{
     color: #514949;
-    font-family: Averta-Black;
+    font-family: Averta-Regular;
     font-weight: normal;
 }
 
@@ -89,4 +145,28 @@ dd{
 
 .cookies,.sub-text,.right,.removal,.content{
     border-bottom: 1px solid #514949;
+}
+
+.break{
+    background: #0B0B10;
+    height: 342px;
+    text-align: center;
+    max-width: 1260px;
+    min-width: 60px;
+    margin-right: -0.9rem;
+}
+
+.break h3{
+    font-family: Avater-bold;
+    font-size: 1.4rem;
+    color: white;
+    padding-top: 5rem;
+}
+.break button{
+    width: 148px;
+    padding: 11px 28px;
+    background: #E7332B;
+    color: white;
+    margin-top: 3rem;
+    border: none;
 }
