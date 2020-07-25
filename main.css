@@ -28,6 +28,15 @@ body{
         url("./fonts/Averta-Bold.otf") format("opentype");
     font-weight: 600;
 }
+
+.fa-bars{
+    color: rgb(184, 179, 179);
+    font-size: 30px;
+    border: 1px solid gray;
+    padding: 5px 13px;
+    border-radius: 3px 3px;
+    display: none;
+}
 .float{
     margin: 0 3rem;
 }
