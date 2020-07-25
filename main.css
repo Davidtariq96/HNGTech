@@ -151,8 +151,10 @@ dd{
     background: #0B0B10;
     height: 342px;
     text-align: center;
+    margin-top: 5rem;
     max-width: 1260px;
     min-width: 60px;
+    margin-bottom: 2rem;
     margin-right: -0.9rem;
 }
 
