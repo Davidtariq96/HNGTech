@@ -155,7 +155,8 @@ dd{
     max-width: 1260px;
     min-width: 60px;
     margin-bottom: 2rem;
-    margin-right: -0.9rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
 }
 
 .break h3{
