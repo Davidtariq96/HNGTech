@@ -65,18 +65,19 @@ a{
         justify-content: flex-start;
         flex-direction: column;
         margin-left: 1rem;
-      
-        
+    }
+    a img{
+        /* margin-left: 1rem; */
     }
     .headings{
-        margin-right: -1rem;
+        margin-right: -0.4rem;
     } 
     .navbar{
         margin-right: 1rem;
         padding-right: 2rem;
     }
     header{
-        margin-right: -1rem;
+        margin-right: -0.4rem;
     }
     .fa-bars {
         color: rgb(184, 179, 179);
@@ -85,4 +86,15 @@ a{
         padding: 5px 13px;
         border-radius: 3px 3px;
       }
+
+      .float{
+        margin: 0 1rem;
+    }
+
+    .sub-head{
+        width: 350px;
+    }
+    ul li a{
+        margin-left: 2rem;
+    }
 }
