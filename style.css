@@ -60,6 +60,31 @@ img{
 a{
   text-decoration: none;
 }
+.section-3 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding: 5rem 0;
+    text-align: center;
+    background: url('./images/black.min.png') no-repeat;
+    background-size: cover;
+  }
+  
+  .section-3 h2 {
+    color: white;
+  }
+  
+  .section-3 button {
+    background-color: #E7332B;
+    border: none;
+    color: white;
+    width: 152px;
+    padding: .8rem;
+  }
+  
+  .section-3 button:hover {
+    background-color: #ba241e;
+  }
+
 @media (max-width:800px){
     .footer{
         justify-content: flex-start;
