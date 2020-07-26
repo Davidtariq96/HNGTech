@@ -94,7 +94,7 @@ a{
     .sub-head{
         width: 350px;
     }
-    ul li a{
+    nav ul li a{
         margin-left: 2rem;
     }
 }
